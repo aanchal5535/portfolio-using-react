@@ -1,0 +1,88 @@
+header{
+    height: 100vh;
+    padding-top:7rem;
+    overflow: hidden;
+}
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap:1.1rem;
+    justify-content: center;
+}
+
+.header-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+ 
+.header-socials::after{
+    content:'';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+.me
+{
+    width: 25rem;
+    height: 33rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4rem;
+   overflow: hidden;
+   padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.scroll_down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+@media screen and (max-width: 1024px) {
+    header {
+        height: 100vh;
+
+    }
+}
+
+/* Media queries SM Devices */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
+    .header_socialicons {
+        display: block;
+        position: relative;
+        bottom:0px;
+        margin-top: 2rem;
+        
+    }
+
+    .header_socialicons > a {
+        padding: 1rem;
+    }
+
+    .scroll__down {
+        display: none;
+    }
+
+    .me {
+        margin-top: .5rem;
+    }
+
+
+}

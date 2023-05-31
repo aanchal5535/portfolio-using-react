@@ -1,0 +1,94 @@
+.my-skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.my-skills>div{
+    background: var(--color-bg-variant);
+    padding: 2rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.my-skills>div:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+.my-skills>div h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+.skills-content{
+    display: grid;
+    row-gap: 1rem;
+}
+.skills-details{
+    margin: 5px;
+}
+.bar {
+    background: rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+  }
+  .bar span {
+    height: 8px;
+    float: left;
+    background: var(--color-primary);
+ 
+  }
+  .sql {
+    width: 100%;
+  }
+  .python {
+    width: 95%;
+  }
+  .github {
+    width: 70%;
+  }
+  
+  .html{
+    width: 90%;
+  }
+  .css {
+    width: 75%;
+  }
+  .javascript {
+    width: 50%;
+  }
+  .bootstrap{
+    width: 20%;
+  }
+  .react{
+    width: 40%;
+  }
+
+@media screen and (max-width: 1024px) {
+    .my-skills {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .my-skills > div {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .skills-content {
+        column-gap: 2rem;
+    }
+}
+
+/* Media queries SM */
+
+@media screen and (max-width: 600px) {
+    .my-skills {
+        gap: 1.2rem;
+    }
+    .my-skills > div {
+        width: 100%;
+    }
+
+    }
