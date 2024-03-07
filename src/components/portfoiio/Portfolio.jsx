@@ -1,49 +1,50 @@
 import React from 'react';
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/Image1.jpg'
+import IMG2 from '../../assets/Image2.png'
+import IMG3 from '../../assets/Image3.png'
+import IMG4 from '../../assets/Image4.png'
+import IMG5 from '../../assets/Image5.jpg'
+import IMG6 from '../../assets/Image6.png'
 
 const data=[
   {id:1,
   image:IMG1,
-  title: 'Crypto Currency Dashboard & Financial Visualization',
-  github: 'https://github.com',
+  title: 'SignUp-LogIn Form ',
+  github: 'https://github.com/aanchal5535/signup-login_using_react',
   
   },
   {id:2,
     image:IMG2,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
+    title: 'Tip Calculator',
+    github: 'https://github.com/aanchal5535/tip-calculator_react',
 
   },
   {id:3,
     image:IMG3,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
+    title: 'Price Tag Model',
+    github: 'https://github.com/aanchal5535/pricetag-react',
     
   },
   {id:4,
     image:IMG4,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
+    title: 'Advertisement Template For Lamp',
+    github: 'https://github.com/aanchal5535/lamp_ad',
 
   },
   {id:5,
     image:IMG5,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
+    title: 'ToDo List  App',
+    github: 'https://github.com/aanchal5535/todolist_react',
     
   },
   {id:6,
     image:IMG6,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
-    github: 'https://github.com',
+    title: 'Gym Website',
+    github: "https://github.com/aanchal5535/gym_website",
 
   },
+ 
 ]
 
 

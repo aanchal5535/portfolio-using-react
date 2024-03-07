@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css';
 import {MdOutlineEmail} from 'react-icons/md';
 import {BsMessenger} from 'react-icons/bs';
-import {AiOutlineWhatsApp} from 'react-icons/ai';
+import {AiFillLinkedin} from 'react-icons/ai';
 
 const contacts = () => {
   return (
@@ -25,10 +25,10 @@ const contacts = () => {
             <a href='https://m.me/aanchal.subedi.967' target='_blank'>Send a message</a>
           </article>
           <article className="contact_option">
-            <AiOutlineWhatsApp className='contact_option-icon'/>
-            <h4>Whatsapp</h4>
-            <h5>+123456789</h5>
-            <a href='https://api.whatsapp.com/send?phone=+123456789' target='_blank'>Send a message</a>
+            <AiFillLinkedin className='contact_option-icon'/>
+            <h4>LinkedIn</h4>
+            <h5>Aanchal Subedi</h5>
+            <a href='https://www.linkedin.com/in/aanchal-subedi-356860205/' target='_blank'>Send a message</a>
           </article>
         </div>
         <form action="">

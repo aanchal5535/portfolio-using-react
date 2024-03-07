@@ -27,45 +27,11 @@
 .skills-details{
     margin: 5px;
 }
-.bar {
-    background: rgba(0, 0, 0, 0.1);
-    display: block;
-    height: 8px;
-    border-radius: 10px;
-    overflow: hidden;
-    
-  }
-  .bar span {
-    height: 8px;
-    float: left;
-    background: var(--color-primary);
- 
-  }
-  .sql {
-    width: 100%;
-  }
-  .python {
-    width: 95%;
-  }
-  .github {
-    width: 70%;
-  }
-  
-  .html{
-    width: 90%;
-  }
-  .css {
-    width: 75%;
-  }
-  .javascript {
-    width: 50%;
-  }
-  .bootstrap{
-    width: 20%;
-  }
-  .react{
-    width: 40%;
-  }
+
+ .skill{
+  font-size: large;
+  list-style-type: disc;
+ }
 
 @media screen and (max-width: 1024px) {
     .my-skills {

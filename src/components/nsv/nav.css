@@ -4,6 +4,7 @@ nav{
     gap: 0.8rem;
     border-radius: 3rem;
     margin: 5px;
+    position: fixed;
     
 }
 nav a{
