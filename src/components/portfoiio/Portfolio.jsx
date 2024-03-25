@@ -2,10 +2,11 @@ import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/Image1.jpg'
 import IMG2 from '../../assets/Image2.png'
-import IMG3 from '../../assets/Image3.png'
+import IMG3 from '../../assets/Image3.jpg'
 import IMG4 from '../../assets/Image4.png'
 import IMG5 from '../../assets/Image5.jpg'
 import IMG6 from '../../assets/Image6.png'
+import IMG7 from '../../assets/scene.jpg'
 
 const data=[
   {id:1,
@@ -22,8 +23,8 @@ const data=[
   },
   {id:3,
     image:IMG3,
-    title: 'Price Tag Model',
-    github: 'https://github.com/aanchal5535/pricetag-react',
+    title: 'Weather app',
+    github: 'https://github.com/aanchal5535/weather_app',
     
   },
   {id:4,
@@ -42,6 +43,12 @@ const data=[
     image:IMG6,
     title: 'Gym Website',
     github: "https://github.com/aanchal5535/gym_website",
+
+  },
+  {id:7,
+    image:IMG7,
+    title: 'Travel Website',
+    github: "https://github.com/aanchal5535/travel_react/tree/main",
 
   },
  
@@ -69,11 +76,14 @@ const portfolio = () => {
           <div className="portfolio_item-cta">
           <a href={github} className='btn btn-primary'>GitHub</a>
          </div>
+        
         </article>
             )
           })
         }
-        
+        <div>
+       <a href="https://github.com/aanchal5535" className='btn btn-primary'>See More</a>
+       </div>>
       </div>
     </section>
   )
